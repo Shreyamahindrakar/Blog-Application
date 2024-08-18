@@ -1,0 +1,54 @@
+.updatePost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .updatePostForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .updatePostFormGroup {
+    margin-bottom: 20px;
+  }
+  
+  .updatePostInput {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .updatePostText {
+    min-height: 150px;
+  }
+  
+  .currentPostImage {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .updatePostSubmit {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .updatePostSubmit:hover {
+    background-color: #0056b3;
+  }
+  
+  .imagePreview {
+    margin-bottom: 20px;
+  }
+  

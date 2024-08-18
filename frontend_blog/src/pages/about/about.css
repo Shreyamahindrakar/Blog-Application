@@ -1,0 +1,60 @@
+/* src/pages/about.css */
+.about {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .aboutImage {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 800px; /* Ensure it doesn't get too large */
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto 20px; /* Center the image and add margin at the bottom */
+  }
+  
+  .aboutTitle {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .aboutContentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .aboutContent {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .imageGallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .imageBlock {
+    flex: 1 1 30%;
+    perspective: 1000px; /* Creates the 3D effect */
+    margin: 10px;
+  }
+  
+  .imageBlock img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transform: rotateY(15deg); /* Creates a 3D block effect */
+    transition: transform 0.5s;
+  }
+  
+  .imageBlock:hover img {
+    transform: rotateY(0deg); /* Rotate back on hover */
+  }
+  
